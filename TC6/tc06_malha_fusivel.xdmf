@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="https://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="fusivel" GridType="Uniform">
+      <Topology TopologyType="Triangle" NumberOfElements="12190" NodesPerElement="3">
+        <DataItem Dimensions="12190 3" NumberType="Int" Format="HDF">tc06_malha_fusivel.h5:/Mesh/fusivel/topology</DataItem>
+      </Topology>
+      <Geometry GeometryType="XY">
+        <DataItem Dimensions="6348 2" Format="HDF">tc06_malha_fusivel.h5:/Mesh/fusivel/geometry</DataItem>
+      </Geometry>
+    </Grid>
+  </Domain>
+</Xdmf>
